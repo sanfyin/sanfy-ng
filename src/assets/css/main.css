@@ -1,0 +1,101 @@
+
+html,body {
+    height:100%;
+}
+
+body {
+    font-family: 'Macondo', cursive;
+    font-size:100%;
+    line-height: 1.5em;
+}
+
+/* Banner Section */
+#banner {
+    height:100%;
+    background:url('/assets/img/website-layout-wireframe-ideas-sketched-on-paper-picjumbo-com.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    position:relative;
+}
+
+#banner-content {
+    height:100%;
+    width:100%;
+    display:table;
+}
+
+#banner-box {
+    height:100%;
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+}
+
+#banner-box h1 {
+    margin:0!important;
+    font-size:80px;
+    font-weight:400;
+    text-transform:uppercase;
+    color:black;
+}
+
+#banner-underline {
+    width:300px;
+    border: 3px solid orange;
+    margin: 0 auto;
+}
+
+#banner-box a {
+    font-size:30px;
+    border: 2px solid whitesmoke;
+    display:inline-block;
+    padding:10px 20px !important;
+    margin-top:20px;
+    color:whitesmoke;
+    text-decoration:none;
+    background:#E0DDCF;
+}
+
+#banner-box a:hover,
+#banner-box a:focus {
+    color:orange;
+    background-color:whitesmoke;
+}
+
+#banner-icon a{
+    position: absolute;
+    bottom:10%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size:30px;
+    color:whitesmoke;
+    border-radius:50%;
+    padding: 5px;
+    background:#E0DDCF;
+}
+
+#banner-icon a:hover {
+    opacity:0.6;
+    color:black;
+    border-color:black;
+}
+
+/*header */
+
+.header h1 {
+    text-transform:uppercase;
+    font-size:30px;
+    margin-bottom:5px;
+    
+}
+
+.header-underline {
+    width:150px;
+    border: 3px solid orange;
+    margin:0 auto 20px auto;
+}
+
+#services {
+    background-color: grey;
+}
